@@ -1,0 +1,83 @@
+*{
+    margin: none;
+    font-family: Arial;
+
+}
+
+h1 {
+    font-size: 50px;
+    text-align: center;
+}
+
+h1, h2, h3{
+    color: rgb(99, 42, 42);
+    font-family: 'Delicious Handrawn', cursive;
+
+}
+
+header{
+    background-color:rgb(168, 164, 110) ;
+    text-align: center;
+}
+
+body{
+    background-color: rgb(207, 203, 144) ;
+}
+
+p{
+    font-family: 'Delicious Handrawn', cursive;
+    font-size: 20px;
+}
+
+.Img1 { 
+        margin-right: 10px; /* Ajusta el margen derecho de la imagen */
+}
+
+.Titulo{
+    display: flex;
+    align-items: center;
+    text-align: center;
+}
+
+nav{
+    text-align: center;
+    word-spacing: 150px;
+}
+
+.boton{
+    border: 10px tomato  
+}
+.Portada{
+    width: 70vh;
+    height: 30vh;
+}
+
+footer{
+    margin: 40px;
+    text-align: center;
+}
+
+.Redes{
+    word-spacing: 100px;
+    
+}
+
+.container{
+    background-color: rgb(189, 144, 8);
+    display: inline-flex;
+    width: 600px;
+    height: 100px;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+.item{
+    background-color: rgb(114, 90, 0);
+    height: 45%;
+    width: 15%;
+    text-align: center;
+}
+
+.campo{
+    background-color: rgb(236, 232, 210);
+}
