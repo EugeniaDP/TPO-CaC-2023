@@ -1,8 +1,10 @@
 *{
     margin: none;
     font-family: Arial;
-
 }
+* {
+    box-sizing: border-box;
+  }
 
 h1 {
     font-size: 50px;
@@ -46,7 +48,11 @@ nav{
 
 .boton{
     border: 10px tomato  
+    
 }
+.boton:hover {
+    background-color: #0099cc;
+  }
 .Portada{
     width: 70vh;
     height: 30vh;
