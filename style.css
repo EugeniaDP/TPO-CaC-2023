@@ -24,6 +24,8 @@ header{
 
 body{
     background-color: rgb(207, 203, 144) ;
+    margin:auto;
+    padding: 3vw 3vh;
 }
 
 p{
@@ -31,9 +33,25 @@ p{
     font-size: 20px;
 }
 
+@keyframes latidos {
+    from { transform: none; }
+    50% { transform: scale(1.1); }
+    to { transform: none; }
+}
+
+
 .Img1 { 
         margin-right: 10px; /* Ajusta el margen derecho de la imagen */
-}
+        border-radius: 20px;
+        display: inline-block;
+        font-size: 150px;
+        text-shadow: 0 0 10px #222,1px 1px  0 #450505;
+        color: red;
+        animation: latidos 1.3s infinite;
+        transform-origin: center;
+        }
+        
+
 
 .Titulo{
     display: flex;
@@ -47,10 +65,15 @@ nav{
 }
 
 .boton{
-    border: 10px tomato  
-    
+    margin-top: 10vh;
+    border: 10px tomato;
+    font-size: 20px; 
+    border-radius: 5px;
+    background-color: burlywood;
+    text-decoration: none;
 }
 .boton:hover {
+    font-size: 23px;
     background-color: #0099cc;
   }
 .Portada{
@@ -63,10 +86,6 @@ footer{
     text-align: center;
 }
 
-.Redes{
-    word-spacing: 100px;
-    
-}
 
 .container{
     background-color: rgb(189, 144, 8);
@@ -77,13 +96,23 @@ footer{
     justify-content: space-around;
 }
 
-.item{
-    background-color: rgb(114, 90, 0);
-    height: 45%;
-    width: 15%;
+.Arte{
     text-align: center;
 }
-
-.campo{
-    background-color: rgb(236, 232, 210);
+.ref{
+    font-size: 18px;
+    background-color: bisque;
+    border-radius: 5px;
 }
+.ref:hover {
+    font-size: 20px;
+    background-color:  #0099cc;
+}
+
+
+.Redes {
+    padding: 5vh;
+    word-spacing: 100px;
+
+}
+
