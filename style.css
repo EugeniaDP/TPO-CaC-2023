@@ -18,15 +18,24 @@ h1, h2, h3{
 }
 
 header{
-    background-color:rgb(168, 164, 110) ;
-    display: inline-block;
-    }
-    header img {
-    height: auto;
-    float: left;
-    display: flex;
     flex-direction: row;
-    }
+    flex-wrap: wrap;
+  }
+  .Logo1 {
+    background-color: #f1f1f1;
+    padding: 10px;
+    flex: 100%;
+    width: 100%;
+    height: 30vw;
+  }
+  
+  .Portada1 {
+    background-color: dodgerblue;
+    padding: 10px;
+    flex: 50%;
+    width: 45%;
+  }
+
 
 body{
     background-color: rgb(207, 203, 144) ;
@@ -44,10 +53,21 @@ p{
 }
 
 nav{
+    display: flex;
     text-align: center;
     word-spacing: 150px;
     background-color: burlywood;
 }
+nav a {
+    color: white;
+    padding: 14px 20px;
+    text-decoration: none;
+    text-align: center;
+  }
+  nav a:hover {
+    background-color: #ddd;
+    color: black;
+  }
 
 .boton{
     border: 10px tomato  
@@ -94,10 +114,9 @@ footer{
         display: column;
         flex-wrap: nowrap;
     }
-    header img{
-        flex-direction: column;
-        flex-wrap: nowrap;
-    }
+    .Logo1, .Portada1 {
+        flex: 100%;
+      }
 
 .campo{
     background-color: rgb(236, 232, 210);
