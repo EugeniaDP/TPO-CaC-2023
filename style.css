@@ -32,7 +32,8 @@ p{
 }
 
 .Img1 { 
-        margin-right: 10px; /* Ajusta el margen derecho de la imagen */
+    margin-right: 10px; /* Ajusta el margen derecho de la imagen */
+    border-radius: 10PX;
 }
 
 .Titulo{
@@ -70,18 +71,27 @@ footer{
 
 .container{
     background-color: rgb(189, 144, 8);
-    display: inline-flex;
-    width: 600px;
-    height: 100px;
+    display: flex;
+    width: 95vw;
+    height: 50vh;
     flex-direction: row;
-    justify-content: space-around;
+    justify-content:space-around;
+    
+}
+.item{
+    display: flex;
+    flex-direction: row;
+    justify-content:center;
+    align-items: center;
+}
+.item img{
+    width: 90%;
+    border-radius: 5%;
 }
 
-.item{
-    background-color: rgb(114, 90, 0);
-    height: 45%;
-    width: 15%;
-    text-align: center;
+.item img:hover{
+    width: 95%;
+    border: solid 5px orange;
 }
 
 .campo{
