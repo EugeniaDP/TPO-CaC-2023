@@ -19,9 +19,24 @@ h2, h3{
 }
 
 header{
-    background-color:rgb(168, 164, 110) ;
-    text-align: center;
-}
+    flex-direction: row;
+    flex-wrap: wrap;
+  }
+  .Logo1 {
+    background-color: #f1f1f1;
+    padding: 10px;
+    flex: 100%;
+    width: 100%;
+    height: 30vw;
+  }
+  
+  .Portada1 {
+    background-color: dodgerblue;
+    padding: 10px;
+    flex: 50%;
+    width: 45%;
+  }
+
 
 body{
     background-color: rgb(207, 203, 144) ;
@@ -32,12 +47,8 @@ p{
     font-size: 20px;
 }
 
-.Img1{ 
-    margin-right: 10px; /* Ajusta el margen derecho de la imagen */
-    border-radius: 10px;
-    padding: 10px 10px 10px 10px;
-    height: 180px;
-    width: 180px;
+.Img1 { 
+        margin-right: 10px; /* Ajusta el margen derecho de la imagen */
 }
 
 .Titulo{
@@ -47,6 +58,7 @@ p{
 }
 
 nav{
+    display: flex;
     text-align: center;
     word-spacing: 150px;
     background-color: orange;
@@ -60,10 +72,6 @@ nav{
 .boton:hover {
     background-color: #0099cc;
   }
-.Portada{
-    width: 70vh;
-    height: 30vh;
-}
 
 footer{
     margin: 40px;
@@ -80,6 +88,7 @@ footer{
     font-size: 30px;
     margin: 30px 0 30px 0;
 }
+/* Necesito que las imagenes y los items dejen un espacio y se acomoden en columna cuando disminuyo la pantalla */
 
 .container{
     background-color: rgb(189, 144, 8);
@@ -110,7 +119,20 @@ footer{
     width: 110%;
     border: solid 8px orange;
 }
+    header{
+        flex-direction: column;
+        display: column;
+        flex-wrap: nowrap;
+    }
+    .Logo1, .Portada1 {
+        flex: 100%;
+      }
 
 .campo{
     background-color: rgb(236, 232, 210);
 }
+.row::after {
+    content: "";
+    clear: both;
+    display: table;
+  }
