@@ -141,6 +141,15 @@ footer{
     
 }
 
+.seccionescatalogo{
+    display: grid;
+    background-color: rgb(189, 144, 8);
+    grid-row-gap: 50px;
+    margin: 20px;
+    padding: 20px;
+    text-align: center;
+}
+
 
 .ref{
     font-size: 18px;
