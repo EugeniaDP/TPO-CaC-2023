@@ -148,16 +148,25 @@ footer{
     padding: 20px;
     text-align: center;
     flex-direction: column;
-    height: 350px;
+    height: 400px;
 }
 
 .containercatalogo{
     width: 100%;
-    height: 50%;
+    height: 100%;
     display: inline-flex;
     padding: 10px;
     background-color: rgb(169, 143, 64);
     justify-content: space-around;
+}
+
+.indice{
+    display: inline-flex;
+    flex-direction: row;
+    justify-content: space-around;
+    margin: 10px;
+    padding: 10px;
+    text-align: center;
 }
 
 .imagenescatalogo{
@@ -167,6 +176,67 @@ footer{
     height: 90%;
     background-position: center;
     background-size: cover;
+
+}
+
+#madera-bazar-1 {
+    background-image: url('https://equidna.com.ar/wp-content/uploads/2020/08/Cubiertos_3_13fc9614-0a51-46eb-83f7-4b10b47faa25_2048x-600x679.jpg');
+}
+
+#madera-bazar-2 {
+    background-image: url('https://http2.mlstatic.com/D_NQ_NP_772781-MLA48782094289_012022-O.webp');
+}
+
+#madera-bazar-3 {
+    background-image: url('https://http2.mlstatic.com/D_NQ_NP_831018-MLA48150372143_112021-O.webp');
+}
+
+#madera-bazar-4 {
+    background-image: url('https://d2r9epyceweg5n.cloudfront.net/stores/001/581/394/products/madera-mate-azucarera-gde-azucarera-chica-bandeja1-56883feedbe6f0197116258548919140-1024-1024.jpg');
+}
+
+#madera-bazar-5 {
+    background-image: url('https://http2.mlstatic.com/D_NQ_NP_747409-MLA46220442376_052021-O.webp');
+}
+
+#madera-llaveros-1 {
+    background-image: url('https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRi3rB0BTtqZoDxjgxvNPnm-rJXIFbMVXpxWQ&usqp=CAU');
+}
+
+#madera-llaveros-2 {
+    background-image: url('https://i.pinimg.com/550x/be/7b/c6/be7bc693d16feb7aac06edcea43d9b79.jpg');
+}
+
+#madera-llaveros-3 {
+    background-image: url('https://arakmadu.com.ar/wp-content/uploads/FB3047-3-600x603.jpg');
+}
+
+#madera-llaveros-4 {
+    background-image: url('https://img.freepik.com/vector-gratis/llaveros-madera-llaveros-anillos-metal_107791-2630.jpg?w=2000');
+}
+
+#madera-llaveros-5 {
+    background-image: url('https://http2.mlstatic.com/D_NQ_NP_852254-MLA51778592866_092022-V.jpg');
+}
+
+#madera-pirograbados-1 {
+    background-image: url('https://felixdasilva85.files.wordpress.com/2013/02/faboarts-03.jpg');
+}
+
+#madera-pirograbados-2 {
+    background-image: url('https://totenart.com/tutoriales/wp-content/uploads/2013/05/imagen-pirograbado-indiio.jpg');
+}
+
+#madera-pirograbados-3 {
+    background-image: url('https://2.bp.blogspot.com/_we2ps5AUXYU/TAvljzJ9frI/AAAAAAAAAAM/iO3ZO6vyCiw/s1600/Reloj+Indio+1.jpg');
+}
+
+#madera-pirograbados-4 {
+    background-image: url('https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQnirO6X_BjZou24lR6HNmYI_YVZi0KZprm4A&usqp=CAU');
+}
+
+#madera-pirograbados-5 {
+    background-image: url('https://http2.mlstatic.com/D_NQ_NP_713220-MLA51542295759_092022-V.jpg');
 }
 
 #ceramica-vajilla-1 {
@@ -287,6 +357,66 @@ footer{
 
 #crochet-hogar-5 {
     background-image: url('https://i.ibb.co/FmZS9YN/download-3.jpg') ;
+}
+
+#bijou-mostacillas-1{
+    background-image: url('https://i.pinimg.com/564x/e2/c8/e5/e2c8e5333e30efa407495c6464ff91ad.jpg');
+}
+
+#bijou-mostacillas-2{
+    background-image: url('https://http2.mlstatic.com/D_NQ_NP_685032-MLA51964319985_102022-O.jpg');
+}
+
+#bijou-mostacillas-3{
+    background-image: url('https://i.pinimg.com/originals/7f/7c/65/7f7c6502769f34ab9e3106e309e0fb83.jpg');
+}
+
+#bijou-mostacillas-4{
+    background-image: url('https://i.pinimg.com/originals/c9/00/b6/c900b656c9ec4750db23a27bc427092d.jpg');
+}
+
+#bijou-mostacillas-5{
+    background-image: url('https://i.pinimg.com/originals/64/11/3b/64113beb127ee903d51bfac02c8e58f9.jpg');
+}
+
+#bijou-metales-1{
+    background-image: url('https://materialparamanualidades.com/wp-content/uploads/2017/07/anillo-alambra-clave-de-sol-1024x768.jpg');
+}
+
+#bijou-metales-2{
+    background-image: url('https://4.bp.blogspot.com/-P-uTvXiLLTU/V9AooLEiafI/AAAAAAAAAl4/rC0tCBN8ZvgGFjF41URTFn7_5vyQ8r-0QCPcB/s1600/img-20160901-wa0010.jpg');
+}
+
+#bijou-metales-3{
+    background-image: url('https://i.pinimg.com/236x/d3/d7/62/d3d762e5bd97025c729094b0091f3863.jpg');
+}
+
+#bijou-metales-4{
+    background-image: url('https://http2.mlstatic.com/D_NQ_NP_918094-MLA42227704226_062020-O.jpg');
+}
+
+#bijou-metales-5{
+    background-image: url('https://pbs.twimg.com/media/EdTJcFRWsAAUVnh.png');
+}
+
+#bijou-otros-1{
+    background-image: url('https://ideascreativas.me/wp-content/uploads/2018/03/IMG_5084-300x200.jpg');
+}
+
+#bijou-otros-2{
+    background-image: url('https://cdn.domestika.org/c_fit,dpr_auto,f_auto,t_base_params,w_820/v1637831075/content-items/009/705/636/1637830774016-original.jpg?1637831075');
+}
+
+#bijou-otros-3{
+    background-image: url('https://http2.mlstatic.com/D_NQ_NP_653534-MLA50302741900_062022-W.jpg');
+}
+
+#bijou-otros-4{
+    background-image: url('https://http2.mlstatic.com/D_NQ_NP_795911-MLA20671308589_042016-V.jpg');
+}
+
+#bijou-otros-5{
+    background-image: url('https://http2.mlstatic.com/D_NQ_NP_879913-MLA54546843034_032023-O.jpg');
 }
 
 

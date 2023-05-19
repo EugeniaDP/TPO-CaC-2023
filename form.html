@@ -45,15 +45,62 @@
             <option>Consulta por productos</option>
             <option>Quiero participar como artesano/a</option>
         </select>
+
+        <br>
+        <br>
+
+        <label for="material">Material y categoría del producto:</label>
+
+        <select name="categoria" id="categoria" class="campo">
+            <optgroup label="Madera">
+                <option>Bazar</option>
+                <option>Llaveros</option>
+                <option>Pirograbados</option>
+            </optgroup>
+
+            <optgroup label="Cerámica">
+                <option>Vajilla</option>
+                <option>Hogar</option>
+                <option>Juegos</option>
+            </optgroup>
+
+            <optgroup label="Crochet">
+                <option>Amigurumis</option>
+                <option>Indumentaria</option>
+                <option>Hogar</option>
+            </optgroup>
+
+            <optgroup label="Bijouterie">
+                <option>Mostacillas</option>
+                <option>Metales preciosos y alambre</option>
+                <option>Otros materiales</option>
+            </optgroup>
+        </select>
+
+        <br>
+        <br>
+
+        <label for="indice">Número de índice del producto:</label>
+
+        <select name="indice" id="indice" class="campo">
+            <option>1</option>
+            <option>2</option>
+            <option>3</option>
+            <option>4</option>
+            <option>5</option>
+        </select>
+
         <br>
         <br>
         <label for="consulta">Consulta:</label> 
-        <textarea name="" id="consulta" cols="50" rows="10" class="campo">Escriba su consulta aquí...</textarea>  
+        <textarea name="" id="consulta" cols="50" rows="10" class="campo">Acá podés preguntar por la disponibilidad del producto elegido, como también personalizar tu producto (ej.: "Quiero este producto pero en otro color").</textarea>  
         <br>
         <br>
         <input type="submit" value="Enviar" class="campo">
         <input type="reset" value="Vaciar formulario" class="campo">
     </form>
+
+    
 
     <script>
 
