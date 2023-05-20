@@ -11,7 +11,7 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Delicious+Handrawn&display=swap" rel="stylesheet">
-
+    <script src="app.js"></script>
 </head>
 <body>
     <header>
@@ -26,22 +26,23 @@
         <br>
     <fieldset size="200px">
     <legend><b>Formulario de contacto</b></legend>
-
-    <form action="" onsubmit="return validar()">
+<!-- action="" -->
+    
+    <form id="form" class= "form" action="https://formspree.io/f/mpzenvdq" onsubmit="return validar()" method="POST">
         <label for="nombre">Nombre:</label>
-        <input type="text" id="nombre" class="campo"> <br>
+        <input name="nombre" type="text" id="nombre" class="campo"> <br>
         <br>
         <label for="apellido">Apellido:</label>
-        <input type="text" id="apellido" class="campo"> <br>
+        <input name="apellido" type="text" id="apellido" class="campo"> <br>
         <br>
         <label for="mail">Dirección de mail:</label>
-        <input type="email" id="mail" class="campo"> <br>
+        <input name="correo" type="email" id="mail" class="campo"> <br>
         <br>
         <label for="telefono">Teléfono:</label>
-        <input type="tel" id="telefono" class="campo"> <br> 
+        <input name="numeroTelefonico" type="tel" id="telefono" class="campo"> <br> 
         <br>
         <label for="motivo">Motivo de su consulta:</label>
-        <select name="" id="motivo" class="campo">
+        <select name="motivo" id="motivo" class="campo">
             <option>Consulta por productos</option>
             <option>Quiero participar como artesano/a</option>
         </select>
@@ -93,38 +94,13 @@
         <br>
         <br>
         <label for="consulta">Consulta:</label> 
-        <textarea name="" id="consulta" cols="50" rows="10" class="campo">Acá podés preguntar por la disponibilidad del producto elegido, como también personalizar tu producto (ej.: "Quiero este producto pero en otro color").</textarea>  
+        <textarea name="consulta" id="consulta" cols="50" rows="10" class="campo">Acá podés preguntar por la disponibilidad del producto elegido, como también personalizar tu producto (ej.: "Quiero este producto pero en otro color").</textarea>  
         <br>
         <br>
         <input type="submit" value="Enviar" class="campo">
         <input type="reset" value="Vaciar formulario" class="campo">
+
     </form>
-
-    
-
-    <script>
-
-        function validar() {
-            var nombre=document.getElementById("nombre");
-            var apellido=document.getElementById("apellido");
-            var mail=document.getElementById("mail");
-            var telefono=document.getElementById("telefono");
-
-            if (nombre.value==="" || apellido.value==="" || mail.value==="" || telefono.value==="") {
-                alert("Debe completar todos los campos del formulario");
-                return false;
-            }
-        
-
-
-        }
-
-
-
-    </script>
-
-
-
 
    </fieldset>
     <br>
