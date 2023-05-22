@@ -48,29 +48,33 @@ p{
 
 
 nav{
-    height: 15vh;
-    text-align: center;
-    word-spacing: 150px;
-    background-color: darkorange;
-}
-
-.navegador{
+    display: inline;
     align-items: center;
-
+    text-align: center;    
+    margin: auto;
 }
-
-
+nav a {
+    color: white;
+    padding: 14px 20px;
+    text-decoration: none;
+    text-align: center;
+    margin-bottom: 10vh;
+  }
+  nav a:hover {
+    background-color: #ddd;
+    color: black;
+  }
 .boton{
     margin-top: 10vh;
     border: 10px tomato;
     font-size: 20px; 
-    border-radius: 5px;
+    
     background-color: burlywood;
     text-decoration: none;
 }
 .boton:hover {
     font-size: 23px;
-    background-color: #0099cc;
+
   }
 
   body {
