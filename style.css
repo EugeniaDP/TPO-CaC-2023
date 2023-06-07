@@ -48,11 +48,25 @@ p{
 
 
 nav{
-    display: inline;
+    display: flex;
+    justify-content: flex-start;
     align-items: center;
     text-align: center;    
     margin: auto;
 }
+
+@media (max-width: 480px) {
+    nav {
+      flex-direction: column;
+    }
+
+    .boton {
+        margin-bottom: 10px;
+        margin-right: 0;    
+    }
+
+}
+
 nav a {
     color: white;
     padding: 14px 20px;
@@ -65,10 +79,9 @@ nav a {
     color: black;
   }
 .boton{
-    margin-top: 10vh;
+    margin-right: 10px;
     border: 10px tomato;
-    font-size: 20px; 
-    
+    font-size: 20px;
     background-color: burlywood;
     text-decoration: none;
 }
@@ -127,7 +140,7 @@ footer{
     font-size: 30px;
     margin: 30px 0 30px 0;
 }
-/* Necesito que las imagenes y los items dejen un espacio y se acomoden en columna cuando disminuyo la pantalla */
+
 
 .container{
     background-color: rgb(189, 144, 8);
